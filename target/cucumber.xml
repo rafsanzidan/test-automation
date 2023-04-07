@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.003862">
+    <testcase classname="This feature file contains Student Admission Test Scenarios" name="Student Admission" time="24.003862">
+        <system-out>
+            <![CDATA[Given a CTSMS user is on the home page "https://chroma.mexil.it/site/login".passed
+When the user logs in with valid credentials, username "general@teacher.com" and password "123456".passed
+And navigates to Student Information module.................................passed
+And navigates to Student Admission submodule................................passed
+And enters Student Admission number "12901".................................passed
+And selects class "Cyber Security" and section "Networking Fundamentals"....passed
+And enters first name "Rafsan" and last name "Chowdhury"....................passed
+And selects "Male" under gender dropdown....................................passed
+And selects DOB "01/13/1999"................................................passed
+And enters email address "test1@gmail.com"..................................passed
+And enters mobile number "718727277"........................................passed
+And enters father's name "Pops".............................................passed
+And enters father's number "221112222"......................................passed
+And enters father's occupation "Lawyer".....................................passed
+And enters mother's name "<MOTHER NUMBER>"..................................passed
+And enters mother's number "133333333"......................................passed
+And enters mother's occupation "Architect"..................................passed
+And if father radio button is selected for guardian.........................passed
+Then clicks Save button.....................................................passed
+Then student record is succesfully deleted with class "Cyber Security" and section "Networking Fundamentals" and admission number "12901".passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

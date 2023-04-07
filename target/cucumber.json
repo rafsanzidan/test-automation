@@ -1,0 +1,407 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-30T01:57:16.131Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3192962012,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "Student Admission",
+        "description": "",
+        "id": "this-feature-file-contains-student-admission-test-scenarios;student-admission;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 168161054,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 858611964,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "a CTSMS user is on the home page \"https://chroma.mexil.it/site/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://chroma.mexil.it/site/login\"",
+                  "offset": 33
+                }
+              ],
+              "location": "LoginStepDef.a_CTSMS_user_is_on_the_home_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1394739355,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user logs in with valid credentials, username \"general@teacher.com\" and password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"general@teacher.com\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 85
+                }
+              ],
+              "location": "LoginStepDef.the_user_logs_in_with_valid_credentials_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85548121,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "navigates to Student Information module",
+            "match": {
+              "location": "StudentAdmissionStepDef.navigates_to_Student_Information_module()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1070196982,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "navigates to Student Admission submodule",
+            "match": {
+              "location": "StudentAdmissionStepDef.navigates_to_Student_Admission_submodule()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35909875,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "enters Student Admission number \"12901\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12901\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StudentAdmissionStepDef.enters_Student_Admission_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311003504,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "selects class \"Cyber Security\" and section \"Networking Fundamentals\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cyber Security\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Networking Fundamentals\"",
+                  "offset": 43
+                }
+              ],
+              "location": "StudentAdmissionStepDef.selects_class_and_section(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142137223,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "enters first name \"Rafsan\" and last name \"Chowdhury\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rafsan\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Chowdhury\"",
+                  "offset": 41
+                }
+              ],
+              "location": "StudentAdmissionStepDef.enters_first_name_and_last_name(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104136683,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "selects \"Male\" under gender dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Male\"",
+                  "offset": 8
+                }
+              ],
+              "location": "StudentAdmissionStepDef.selects_under_gender_dropdown(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15089770,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "selects DOB \"01/13/1999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"01/13/1999\"",
+                  "offset": 12
+                }
+              ],
+              "location": "StudentAdmissionStepDef.selects_DOB(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82336376,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "enters email address \"test1@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test1@gmail.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StudentAdmissionStepDef.enters_email_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77043432,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "enters mobile number \"718727277\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"718727277\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StudentAdmissionStepDef.enters_mobile_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68823940,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "enters father\u0027s name \"Pops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pops\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StudentAdmissionStepDef.enters_father_s_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75970355,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "enters father\u0027s number \"221112222\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"221112222\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StudentAdmissionStepDef.enters_father_s_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72407293,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "enters father\u0027s occupation \"Lawyer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lawyer\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StudentAdmissionStepDef.enters_father_s_occupation(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79502227,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "enters mother\u0027s name \"\u003cMOTHER NUMBER\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cMOTHER NUMBER\u003e\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StudentAdmissionStepDef.enters_mother_s_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72121795,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "enters mother\u0027s number \"133333333\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"133333333\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StudentAdmissionStepDef.enters_mother_s_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73678507,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "enters mother\u0027s occupation \"Architect\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Architect\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StudentAdmissionStepDef.enters_mother_s_occupation(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48065305,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "if father radio button is selected for guardian",
+            "match": {
+              "location": "StudentAdmissionStepDef.if_father_radio_button_is_selected_for_guardian()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4644935869,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "clicks Save button",
+            "match": {
+              "location": "StudentAdmissionStepDef.clicks_Save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11284608787,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "student record is succesfully deleted with class \"Cyber Security\" and section \"Networking Fundamentals\" and admission number \"12901\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cyber Security\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Networking Fundamentals\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"12901\"",
+                  "offset": 125
+                }
+              ],
+              "location": "BulkDeleteStepDef.student_record_is_succesfully_deleted_with_class_and_section_and_admission_number(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@StudentAdmission"
+          }
+        ]
+      }
+    ],
+    "name": "This feature file contains Student Admission Test Scenarios",
+    "description": "",
+    "id": "this-feature-file-contains-student-admission-test-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/chroma/features/StudentAdmission.feature",
+    "tags": []
+  }
+]
